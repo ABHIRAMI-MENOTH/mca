@@ -1,13 +1,13 @@
 import java.util.*;
 
-class Employ
+class Employee
 {
         int Empid;
         String Name;
         double Salary;
         String Address;
         
-        Employ(int Empid,String Name,double Salary,String Address)
+        Employee(int Empid,String Name,double Salary,String Address)
         {
                 this.Empid=Empid;
                 this.Name=Name;
@@ -16,7 +16,7 @@ class Employ
         }
 }
 
-class Teacher extends Employ
+class Teacher extends Employee
 {
         String Department;
         String SubjectsTaught;
