@@ -1,4 +1,4 @@
-package com.example.explicit_intent;
+package com.example.explicitintentapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
